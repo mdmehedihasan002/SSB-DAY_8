@@ -59,7 +59,7 @@ header{
 
 /* banner css start */
 .banner{
-  background: url(../images/banner_b.jpeg);
+  background: url(images/banner_b.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
