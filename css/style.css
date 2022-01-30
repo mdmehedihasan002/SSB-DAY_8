@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* common css start */
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.wraper{
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* common css end */
+
+/* header css start */
+header{
+  background:#121B2A; 
+}
+.logo{
+  float: left;
+  width: 15%;
+}
+.logo img{
+  width: 100%;
+}
+.menu{
+  float: right;
+  margin-top: 30px;
+}
+.menu ul{
+  text-align: right;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  display: block;
+  margin: 0px 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: .5s;
+}
+.menu ul li:last-child a{
+  margin-right: 0px;
+}
+.menu ul li a:hover{
+  color: #0172B2;
+}
+/* header css end */
+
+/* banner css start */
+.banner{
+  background: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center center;
+}
+.b-content{
+  width: 50%;
+  padding: 250px 0 100px;
+}
+.b-content h1{
+  font-size:35px;
+  font-weight: 400;
+  color: #fff;
+}
+.b-content h2{
+  font-size: 40px;
+  color:#0274B7;
+}
+.b-content p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 15px 0px;
+}
+.b-btn{
+  font-size: 20px;
+  font-weight: 700;
+  background: #fff;
+  padding: 15px 30px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+
+}
+/* banner css end */
+
+/* service css start */
+.service{
+  background: #121B2C;
+  padding: 50px 0px;
+}
+.service-box{
+  width: 30%;
+  float: left;
+  border-right: 2px solid rgba(120, 120, 120, .1);
+}
+.service-box:nth-child(2){
+  margin: 0 4%;
+  
+}
+.service-box:last-child{
+  border: none;
+}
+.s-icon{
+  float: left;
+  width: 20%;
+}
+.s-icon img{
+  width: 100%;
+}
+.s-text{
+ float: right;
+ width:75%;
+}
+.s-text h1{
+  font-size:24px;
+  font-style: 400;
+  color: #fff;
+}
+.s-text h2{
+  font-size: 24px;
+  font-weight: 700;
+  color:#0274B7;
+}
+.service-box p{
+  margin-top:10px ;
+  color: #fff;
+  line-height: 24px;
+  font-size: 13px;
+  width: 75%;
+}
+/* service css end */
+/* service 2 css start */
+.service-2{
+  background: #040811;
+  padding: 50px 0px;
+}
+.service-2 .service-box{
+  border: none;
+  width: 26%;
+}
+.service-2 .service-box h1{
+  color: #fff;
+  
+}
+.service-2 .service-box h1 span{
+  color:#0274B7;
+}
+.service-2 .service-box h2{
+  color: #0274B7;
+}
+.service-2 .service-box p{
+  width: 77%;
+  
+}
+.service-2 .service-box:nth-child(2){
+  background: #0C1019;
+  padding:30px 20px;
+  position: relative;
+}
+.service-2 .service-box:nth-child(2)::before{
+width: 0;
+height: 0;
+content: "";
+border-top: 20px solid #0C1019;
+border-right: 50px solid transparent;
+position: absolute;
+bottom: -20px;
+right: 60px;
+}
+.service-2 .service-box:nth-child(2) p{
+  width: 100%;
+}
+.service-img{
+  float: left;
+  width: 50%;
+}
+.service-text{
+  float: right;
+  width: 50%;
+  line-height: 36px;
+}
+.service-text img{
+  width: 100%;
+  margin-top: 10px;
+}
+/* service 2 css end */
+/* fotter css start */
+footer{
+  background: #121B2C;
+  padding: 20px 0px 50px;
+}
+.f-menu{
+  float: left;
+  width: 55%;
+}
+
+.f-menu ul li{
+  display: inline-block;
+}
+.f-menu ul li a{
+  color: #fff;
+  display: block;
+  padding: 0px 15px;
+  border-left: 1px solid;
+}
+.f-menu ul li:first-child a{
+  border-left: 0px;
+  padding-left: 0px;
+}
+.f-menu p{
+  color: #fff;
+  margin-top: 15px;
+}
+.f-menu p a{
+  color: #0274B7;
+  font-weight: 600;
+}
+.f-img{
+  float: right;
+  width: 45%;
+}
+.f-img img{
+  display: inline-block;
+}
+.f-img img:first-child{
+  margin-right: 25px;
+}
+/* fotter css end */
